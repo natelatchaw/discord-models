@@ -32,7 +32,7 @@ export interface ApplicationCommand {
     description: string;
 
     /**
-     * @property { Array<ApplicationCOmmandOption> | undefined } options - the parameters for the command
+     * @property { Array<ApplicationCommandOption> | undefined } options - the parameters for the command
      * @see https://discord.com/developers/docs/interactions/slash-commands#application-command-object-application-command-option-structure
      */
     options?: Array<ApplicationCommandOption>;
