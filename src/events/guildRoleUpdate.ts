@@ -1,3 +1,4 @@
+import { Event } from '../event';
 import { Role } from '../objects/role';
 import { Snowflake } from '../objects/snowflake';
 

@@ -1,3 +1,4 @@
+import { Event } from '../event';
 import { Emoji } from '../objects/emoji';
 import { Snowflake } from '../objects/snowflake';
 

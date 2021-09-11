@@ -1,3 +1,4 @@
+import { Event } from '../event';
 import { Channel } from '../objects/channel';
 import { Snowflake } from '../objects/snowflake';
 import { ThreadMember } from '../objects/threadMember';

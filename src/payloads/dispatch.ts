@@ -1,5 +1,5 @@
-import { GatewayPayload } from '../gatewayPayload';
 import { Event } from '../event';
+import { GatewayPayload } from '../gatewayPayload';
 
 /**
  * OPCODE 0 DISPATCH

@@ -1,5 +1,5 @@
-import { Message } from '../objects/message';
 import { Event } from '../event';
+import { Message } from '../objects/message';
 
 /**
  * @interface MessageUpdate

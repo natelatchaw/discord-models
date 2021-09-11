@@ -1,6 +1,6 @@
+import { Event } from '../event';
 import { Integration } from '../objects/integration';
 import { Snowflake } from '../objects/snowflake';
-import { Event } from '../event';
 
 /**
  * @interface IntegrationUpdate
