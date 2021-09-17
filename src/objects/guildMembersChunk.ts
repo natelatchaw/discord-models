@@ -1,13 +1,13 @@
 import { Event } from '../event';
-import { Member } from '../objects/member';
-import { PresenceUpdate } from './presenceUpdate';
-import { Snowflake } from '../objects/snowflake';
+import { Member } from './member';
+import { PresenceUpdate } from '../events/presenceUpdate';
+import { Snowflake } from './snowflake';
 
 /**
  * @interface GuildMembersChunk
  * @see https://discord.com/developers/docs/topics/gateway#guild-members-chunk
  */
-export interface GuildMembersChunk extends Event {
+export interface GuildMembersChunk {
     /**
      * @property { Snowflake } guild_id - the id of the guild
      */

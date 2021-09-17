@@ -19,7 +19,7 @@ export { GuildEmojisUpdate } from './events/guildEmojisUpdate';
 export { GuildIntegrationsUpdate } from './events/guildIntegrationsUpdate';
 export { GuildMemberAdd } from './events/guildMemberAdd';
 export { GuildMemberRemove } from './events/guildMemberRemove';
-export { GuildMembersChunk } from './events/guildMembersChunk';
+export { GuildMembersChunk } from './objects/guildMembersChunk';
 export { GuildMemberUpdate } from './events/guildMemberUpdate';
 export { GuildRoleCreate } from './events/guildRoleCreate';
 export { GuildRoleDelete } from './events/guildRoleDelete';
