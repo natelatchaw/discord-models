@@ -1,4 +1,4 @@
-import { Event } from '../event';
+import { UpdateEvent } from '../event';
 import { Channel } from '../objects/channel';
 import { Snowflake } from '../objects/snowflake';
 import { ThreadMember } from '../objects/threadMember';
@@ -7,7 +7,7 @@ import { ThreadMember } from '../objects/threadMember';
  * @interface ThreadListSync
  * @see https://discord.com/developers/docs/topics/gateway#thread-list-sync
  */
-export interface ThreadListSync extends Event {
+export interface ThreadListSync extends UpdateEvent {
     /**
      * @property { Snowflake } guild_id - the id of the guild
      */

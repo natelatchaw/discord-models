@@ -1,11 +1,11 @@
-import { Event } from '../event';
+import { UpdateEvent } from '../event';
 import { Snowflake } from '../objects/snowflake';
 
 /**
  * @interface VoiceServerUpdate
  * @see https://discord.com/developers/docs/topics/gateway#voice-server-update
  */
-export interface VoiceServerUpdate extends Event {
+export interface VoiceServerUpdate extends UpdateEvent {
     /**
      * @property { string } token - voice connection token
      */

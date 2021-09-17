@@ -1,11 +1,11 @@
-import { Event } from '../event';
+import { UpdateEvent } from '../event';
 import { Snowflake } from '../objects/snowflake';
 
 /**
  * @interface ChannelPinsUpdate
  * @see https://discord.com/developers/docs/topics/gateway#channel-pins-update
  */
-export interface ChannelPinsUpdate extends Event {
+export interface ChannelPinsUpdate extends UpdateEvent {
     /**
      * @property { Snowflake | undefined } guild_id - the id of the guild
      */

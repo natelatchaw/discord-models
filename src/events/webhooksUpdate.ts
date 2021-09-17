@@ -1,11 +1,11 @@
-import { Event } from '../event';
+import { UpdateEvent } from '../event';
 import { Snowflake } from '../objects/snowflake';
 
 /**
  * @interface WebhooksUpdate
  * @see https://discord.com/developers/docs/topics/gateway#webhooks-update
  */
-export interface WebhooksUpdate extends Event {
+export interface WebhooksUpdate extends UpdateEvent {
     /**
      * @property { Snowflake } guild_id - id of the guild
      */

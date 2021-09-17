@@ -1,11 +1,11 @@
-import { Event } from '../event';
+import { RemoveEvent } from '../event';
 import { Snowflake } from '../objects/snowflake';
 
 /**
  * @interface MessageReactionRemoveAll
  * @see https://discord.com/developers/docs/topics/gateway#message-reaction-remove-all
  */
-export interface MessageReactionRemoveAll extends Event {
+export interface MessageReactionRemoveAll extends RemoveEvent {
     /**
      * @property { Snowflake } channel_id - the id of the channel
      */

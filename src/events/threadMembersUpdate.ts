@@ -1,4 +1,4 @@
-import { Event } from '../event';
+import { UpdateEvent } from '../event';
 import { Snowflake } from '../objects/snowflake';
 import { ThreadMember } from '../objects/threadMember';
 
@@ -6,7 +6,7 @@ import { ThreadMember } from '../objects/threadMember';
  * @interface ThreadMembersUpdate
  * @see https://discord.com/developers/docs/topics/gateway#thread-members-update
  */
-export interface ThreadMembersUpdate extends Event {
+export interface ThreadMembersUpdate extends UpdateEvent {
     /**
      * @property { Snowflake } id - the id of the thread
      */

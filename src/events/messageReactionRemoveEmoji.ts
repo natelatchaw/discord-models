@@ -1,4 +1,4 @@
-import { Event } from '../event';
+import { RemoveEvent } from '../event';
 import { Emoji } from '../objects/emoji';
 import { Snowflake } from '../objects/snowflake';
 
@@ -6,7 +6,7 @@ import { Snowflake } from '../objects/snowflake';
  * @interface MessageReactionRemoveEmoji
  * @see https://discord.com/developers/docs/topics/gateway#message-reaction-remove-emoji
  */
-export interface MessageReactionRemoveEmoji extends Event {
+export interface MessageReactionRemoveEmoji extends RemoveEvent {
     /**
      * @property { Snowflake } channel_id - the id of the channel
      */

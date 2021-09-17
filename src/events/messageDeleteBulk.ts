@@ -1,11 +1,11 @@
-import { Event } from '../event';
+import { DeleteEvent } from '../event';
 import { Snowflake } from '../objects/snowflake';
 
 /**
  * @interface MessageDeleteBulk
  * @see https://discord.com/developers/docs/topics/gateway#message-delete-bulk
  */
-export interface MessageDeleteBulk extends Event {
+export interface MessageDeleteBulk extends DeleteEvent {
     /**
      * @property { Array<Snowflake> } ids - the ids of the messages
      */
