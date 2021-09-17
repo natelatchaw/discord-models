@@ -3,6 +3,8 @@ export { Event } from './event';
 export { EventData } from './eventData';
 export { GatewayPayload } from './gatewayPayload';
 
+export { AddEvent, RemoveEvent, CreateEvent, UpdateEvent, DeleteEvent } from './event';
+
 // ./events
 export { ApplicationCommandCreate } from './events/applicationCommandCreate';
 export { ApplicationCommandDelete } from './events/applicationCommandDelete';
